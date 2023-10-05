@@ -18,7 +18,7 @@ export const HeroOverlay = styled.div`
   height: 100%;
   background-color: var(--cor-principal);
   content: '';
-  opacity: 0.7;
+  opacity: 0.5;
 `
 
 export const HeroContent = styled.div`
@@ -29,4 +29,7 @@ export const HeroContent = styled.div`
 export const HeroTitle = styled.h2`
   font-family: Gloock, serif;
   font-size: 48px;
+  color: var(--cor-secundaria);
+  text-align: center;
+  font-weight: bold;
 `
